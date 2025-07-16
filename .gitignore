@@ -1,0 +1,48 @@
+# === FRONTEND (React / Node) ===
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.DS_Store
+
+# === BACKEND (Spring Boot / Java) ===
+/backend/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.properties
+
+# Include Maven Wrapper
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Exclude build directories (for Gradle projects, just in case)
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === Spring Tool Suite (STS) ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === VS Code ===
+.vscode/
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
